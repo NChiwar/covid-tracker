@@ -1,0 +1,29 @@
+canvas {
+  max-height: 450px;
+}
+@media (max-width: 768px) {
+  canvas {
+    max-height: 350px;
+  }
+}
+body {
+  background: linear-gradient(to bottom right, #DBEAFE, #F7FAFC, #D1FAE5);
+}
+nav a:hover, footer a:hover {
+  transition: color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.05);
+}
+.container {
+  max-width: 1280px;
+}
+h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+button, a.bg-blue-600 {
+  transition: all 0.3s ease;
+}
+button:hover, a.bg-blue-600:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
